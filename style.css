@@ -1,0 +1,10 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #094caa;
+    flex: 2 1 auto;
+}
