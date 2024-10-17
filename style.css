@@ -1,5 +1,6 @@
 
 body {
+    
     display: flex;
     flex-direction: column;
 }
@@ -124,11 +125,21 @@ body {
     color: #1F2937;
     font-size: 25px;
     font-weight: 500;
+    margin: 50px;
   }
 
   .custom-style {
     height: 200px;
     width: 200px;
-    /*border-radius: 12px;
-    border-color: #3882f6;*/
+    border: 2px solid #3882f6;
+    border-radius: 12px;
+  }
+
+  .info {
+    max-width: 200px;
+  }
+
+  .text {
+    text-align: center;
+    margin: 10px;
   }
